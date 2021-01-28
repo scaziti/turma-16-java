@@ -15,10 +15,11 @@ public class Exercise03
 		
 		int idadeInformada = 0, menos21 = 0, mais50 = 0;
 		
+		System.out.print("Informe a idade: ");
+		idadeInformada = leitor.nextInt();
+		
 		while (idadeInformada != -99)
 		{
-			System.out.print("Informe a idade: ");
-			idadeInformada = leitor.nextInt();
 			if (idadeInformada < 21 && idadeInformada > 0)
 			{
 				menos21++;
@@ -27,6 +28,8 @@ public class Exercise03
 			{
 				mais50++;
 			}
+			System.out.print("Informe a idade: ");
+			idadeInformada = leitor.nextInt();
 		}
 		
 		System.out.println("A quantidade de pessoas com menos de 21 anos: " + menos21);
