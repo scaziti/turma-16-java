@@ -13,14 +13,15 @@ public class Exercise06
 		
 		Scanner leitor = new Scanner(System.in);
 		
-		int numDigitado = 0, soma = 0, contador = 0, media;
+		int contador = 0;
+		double numDigitado = 0.0, soma = 0.0, media = 0.0;
 		
 		do 
 		{
 			System.out.print("Informe o número: ");
-			numDigitado = leitor.nextInt();
+			numDigitado = leitor.nextDouble();
 			
-			if (numDigitado % 3 == 0 && numDigitado != 0)
+			if (numDigitado % 3 == 0 && numDigitado != 0 && numDigitado > 0)
 			{
 				soma += numDigitado;
 				contador++;
