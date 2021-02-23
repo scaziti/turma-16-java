@@ -8,6 +8,6 @@ Poderá encontrar exercícios diversos, como:
 - Condicionais
 - Vetores
 - Matrizes
-- Orientação à Objeto (conceitod de herança, polimorfismo, etc)
+- Orientação à Objeto (conceitos de herança, polimorfismo, etc)
 - Tratamento de erros (try, catch...)
 
